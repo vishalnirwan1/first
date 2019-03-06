@@ -1,0 +1,35 @@
+table {
+    width:100%;
+}
+th,td{padding:10px}
+th{ background-color: black;
+    color: white  }
+tr:hover{background-color: lightgrey}
+
+tr:nth-child(even) {background-color: lightsalmon;}
+
+.pagi a{
+    color:royalblue;
+    padding:8px 8px;
+}
+
+.search_1{
+    width:200px;
+    height:30px;
+    padding-left:15px;
+    border-radius:6px;
+    border:inset;
+    color:black;;
+    font-weight:500;
+    background-color:#fffbf8;;
+}
+.submit_1{
+    width:70px;
+    height:30px;
+    background-repeat: no-repeat;
+    background-position: 17px 2px;
+    background-color:darkorange;
+    -webkit-background-size:20px 20px;
+    background-size:20px 20px;
+    border:none;
+}
